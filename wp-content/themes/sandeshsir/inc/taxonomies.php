@@ -4,17 +4,23 @@
 function e11_registers_taxonomies() {
 
     $e11_magic_taxonomy_maker_array = array(
-		/*
-        // Issues go for pretty much every post type
         array(
-            'tax_singular' => 'Issue',
-            'tax_plural'   => 'Issues',
-            'tax_slug'     => 'issue', // lowercase letters and dashes only
+            'tax_singular' => 'Nature',
+            'tax_plural'   => 'Nature',
+            'tax_slug'     => 'nature',
             'applicable_post_types' => array(
-                'resource',
+                'photography',
             )
         ),
-		*/
+
+        array(
+            'tax_singular' => 'Personal',
+            'tax_plural'   => 'Personal',
+            'tax_slug'     => 'personal',
+            'applicable_post_types' => array(
+                'photography',
+            )
+        ),
     );
 
     foreach( $e11_magic_taxonomy_maker_array as $taxonomy ){

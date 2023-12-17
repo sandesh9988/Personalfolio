@@ -1,0 +1,33 @@
+// Sizes
+$base-font-size: 16px;
+$ratio: 1.414;
+$container: 1216px;
+$site-width: 1216px;
+
+// Colors
+$black: #000;
+$black-300: #333333;
+$white: #fff;
+$primary-100: #005274;
+$tertiary-100: #7fab3e;
+
+// Fonts
+$primary-family: 'Roboto Condensed', sans-serif;
+$secondary-family: 'Rubik Doodle Shadow', sans-serif;
+$alt-family: 'Dancing Script', sans-serif;
+
+// Media Queries
+$tablet-width: 1024px;
+$phone-width: 768px;
+$header-width: 960px;
+$phone-portrait-width: 640px;
+
+$desktop: "screen and (max-width: #{$container})";
+$tablet: "screen and (max-width: #{$tablet-width})";
+$phone: "screen and (max-width: #{$phone-width})";
+$phone-portrait: "screen and (max-width: #{$phone-portrait-width})";
+$header: "screen and (max-width: #{$header-width})";
+
+// Transition
+$transition: all 0.25s ease-in;
+

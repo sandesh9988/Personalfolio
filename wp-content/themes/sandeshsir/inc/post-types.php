@@ -3,17 +3,15 @@
 function e11_register_post_types() {
 
     $e11_magic_post_type_maker_array = array(
-        /*
         array(
-            'cpt_single' => 'Ad',
-            'cpt_plural' => 'Ads',
-            'slug' => 'ads',
-            'cpt_icon' => 'dashicons-megaphone',
+            'cpt_single' => 'Photography',
+            'cpt_plural' => 'Photography',
+            'slug' => 'photography',
+            'cpt_icon' => 'dashicons-format-gallery',
             'exclude_from_search' => true,
             'hierarchical' => false,
-            'supports' => array('title', 'revisions', 'page-attributes'),
+            'supports' => array('title', 'revisions', 'page-attributes', 'excerpt', 'thumbnail'),
         ),
-        */
     );
 
     foreach( $e11_magic_post_type_maker_array as $post_type ){
