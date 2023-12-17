@@ -13,6 +13,13 @@ body {
     line-height: 1.375;
     font-family: $primary-family;
     color: #000000;
+    background: rgb(127, 127, 236);
+    background: linear-gradient(
+      90deg,
+      rgba(127, 127, 236, 1) 43%,
+      rgba(169, 173, 172, 1) 100%
+    );
+  
 }
 
 a {
