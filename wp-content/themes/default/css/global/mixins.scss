@@ -1,0 +1,20 @@
+//FontSize
+@use "sass:math";
+
+@function calculateRem($size) {
+  //$remSize: $size / 16px;
+  $remSize: math.div($size, 16px);
+  @return $remSize;
+}
+
+@mixin fsz($size) {
+  // font-size: $size;
+  $fontOutput: calculateRem($size);
+  font-size: $fontOutput+rem;
+}
+
+
+@mixin lh($size) {
+  // line-height: $size;
+  line-height: calculateRem($size);
+}
